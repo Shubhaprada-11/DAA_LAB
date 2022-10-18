@@ -38,4 +38,6 @@ int main(){
                   dfs(i);
             }
       }
+      printf("sorted order: ");
+      for(i=0;i<n;i++) printf("%d ",output[i++]);
 }
